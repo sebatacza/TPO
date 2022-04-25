@@ -111,6 +111,8 @@ main{
     margin: 0.5rem;
     border: 2px #da6f23 solid;
     min-height: 20px;
+    overflow: auto;
+    /* display: block; */
 }
 
 .secciones article img{
@@ -321,6 +323,7 @@ form{
     grid-area: mapa4;
 }
 .aside{
+    margin-top: .2rem;
     border-radius: .5rem;
     padding: 1rem;
     background-color: rgb(51, 50, 50);
