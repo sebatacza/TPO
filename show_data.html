@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutdoorFit</title>
+    <script src="https://kit.fontawesome.com/da07f845d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagenes/logo3.png" type="image/x-icon">
+  </head>
+<body>
+  <header>
+    <div class="logo">
+        <div class="centrar">
+            <a href="index.html"><img id="logo" src="/imagenes/logo3.png" alt="Logo"></a>
+        </div>
+    </div>
+
+    <nav class="menu">
+        <section class="menu-container">
+            <a class="logo-chico"href="index.html"><img id="logo" src="/imagenes/logo3.png" alt="Logo"></a>
+            <h1 class="menu-logo">Outdoor.Fit</h1>
+            
+            <ul class="menu-links">
+                <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
+                <li class="menu-item"><a class="menu-link" href="actividades.html">Actividades</a></li>
+                <li class="menu-item"><a class="menu-link" href="parques.html">Parques</a></li>
+                <li class="menu-item"><a class="menu-link" href="registro.html">Registrarse</a></li>
+            </ul>
+
+            <div class="menu-hamburguer">
+                <!-- <i class="fa-solid fa-bars" style="color: aliceblue;"></i> -->
+                <img src="imagenes/menu.svg" class="menu-img">
+            </div>
+        </section>
+
+        
+    </nav>
+</header>
+
+    <main>
+        <div class="col-6 col-s-9">
+            <div align=center>
+              <p align=center>&nbsp;</p>
+              <h1 align=center>
+                <font size="+1">The following information has been sent as your
+                  feedback:</font>
+              </h1>
+      
+              <div>
+                <table border="1" align=center width="500rem">
+                  <tr>
+                    <th align="center">Formulario</th>
+                    <th align="center">Ingresado</th>
+                  </tr>
+      
+      
+                  <script language="javascript">
+                    var args = location.search.substr(1).split('&');
+                    for (var i = 0; i < args.length; ++i) {
+                      var parts = args[i].split('=');
+                      if (parts != null) {
+                        var field = parts[0];
+                        var value = parts[1];
+                        if (value == null) {
+                          value = "null"
+                        }
+                        else {
+                          value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                        }
+      
+                        document.writeln('<tr><td align="center">' + field + '</td>');
+                        document.writeln('<td align="center">' + value + '</td></tr>');
+                      }
+                    }
+                  </script>
+      
+                  <noscript>
+                    <tr>
+                      <td>
+                        <p>You need to turn on Javascript in your browser.</p>
+      
+                        <p>In Microsoft Internet Explorer 4 or greater:</p>
+                        <ul>
+                          <li>From the "Tools" main (in IE 4, it's the "View" main), select "Internet Options".</li>
+                          <li>Click on the "Security" tab.</li>
+                          <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+                            and then click on "Settings...".)</li>
+                          <li>Under "Active scripting" make sure "Enable" is selected.</li>
+                        </ul>
+      
+                        <p>In Netscape version 4 or greater:</p>
+                        <ul>
+                          <li>From the <b>Edit</b> main, select <b>Preferences</b>.</li>
+                          <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+                          <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+                          <li>Click the <b>OK</b> button.</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </noscript>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+    </main>
+
+
+    <footer>
+      <div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Volver Arriba</button>
+      </div>
+      <div class="frase"><p> "Nunca es demasiado tarde para empezar."</p></div>
+      <div class="redes">
+          <nav class="footer">
+              <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+              <a target="_blank" href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+              <a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+              <a target="_blank" href="https://www.pinterest.com"><i class="fa-brands fa-pinterest-square"></i></a>
+              <a target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              <a target="_blank" href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+  
+          </nav>
+      </div>
+      <div class="derechos">
+          <p><i class="fa-regular fa-copyright"></i> Derechos Reservados 2022 </p>
+      </div>
+      
+  </footer>
+    <script src="js/app.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

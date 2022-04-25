@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OutdoorFit</title>
+        <script src="https://kit.fontawesome.com/da07f845d1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="imagenes/logo3.png" type="image/x-icon">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="centrar">
+                <a href="index.html"><img id="logo" src="/imagenes/logo3.png" alt="Logo"></a>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <section class="menu-container">
+                <a class="logo-chico"href="index.html"><img id="logo" src="/imagenes/logo3.png" alt="Logo"></a>
+                <h1 class="menu-logo">Outdoor.Fit</h1>
+                
+                <ul class="menu-links">
+                    <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
+                    <li class="menu-item"><a class="menu-link" href="actividades.html">Actividades</a></li>
+                    <li class="menu-item"><a class="menu-link" href="parques.html">Parques</a></li>
+                    <li class="menu-item"><a class="menu-link" href="registro.html">Registrarse</a></li>
+                </ul>
+
+                <div class="menu-hamburguer">
+                    <!-- <i class="fa-solid fa-bars" style="color: aliceblue;"></i> -->
+                    <img src="imagenes/menu.svg" class="menu-img">
+                </div>
+            </section>
+
+            
+        </nav>
+    </header>
+    <main>
+        <div class="formulario-completo">
+            <h3 id="form-titulo">Registro de usuario</h3>
+        <form action="./show_data.html">
+            <label for="nombre">Nombres:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre completo..." required><br><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellidos..."><br><br>
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingrese direccion..."><br><br>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" value="CABA"><br><br>
+            <label for="codigoPostal">Codigo postal:</label>
+            <input type="number" name="codigoPostal" id="codigoPostal" placeholder="Ingrese su codigo postal aqui..."><br><br>
+            <label for="fechaDeNacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fechaDeNacimiento" id="fechaDeNacimiento" required><br><br>
+            <label for="genero">Género:</label>
+            <input type="radio" name="genero"> Hombre
+            <input type="radio" name="genero"> Mujer
+            <input type="radio" name="genero"> Otro <br><br>
+            <label for="estudios" >Estudios:</label>
+            <input type="checkbox" name="estudios"> Primarios
+            <input type="checkbox" name="estudios"> Secundarios
+            <input type="checkbox" name="estudios"> Terciarios
+            <input type="checkbox" name="estudios"> Universitarios
+            <input type="checkbox" name="estudios"> Otros <br><br>
+            <input class="btn-formulario"type="submit" value="Enviar">
+        </form>
+        </div>
+        
+    </main>
+    <footer>
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Volver Arriba</button>
+        </div>
+        <div class="frase"><p> "Nunca es demasiado tarde para empezar."</p></div>
+        <div class="redes">
+            <nav class="footer">
+                <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+                <a target="_blank" href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                <a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.pinterest.com"><i class="fa-brands fa-pinterest-square"></i></a>
+                <a target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+    
+            </nav>
+        </div>
+        <div class="derechos">
+            <p><i class="fa-regular fa-copyright"></i> Derechos Reservados 2022 </p>
+        </div>
+        
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
