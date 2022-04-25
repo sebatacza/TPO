@@ -557,6 +557,19 @@ footer{
     .row aside img{
         width: 24%;
     }
+
+    #logo{
+        max-width: 2rem;
+        float: center;
+    }
+    
+    .centrar{
+        height: 2rem;
+    }
+    main{
+        transform: translate(0,-2rem);
+    }
+
 }
 /* Dispositivos grandes (aca empieza monitor/notebooks) */
 @media only screen and (min-width: 992px) {
