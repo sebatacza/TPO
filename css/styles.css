@@ -285,10 +285,13 @@ form{
 } */
 
 .img-parque{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
-
+.mapas-iframe{
+    width: 100%;
+    height: auto;
+}
 .intro{
     color: antiquewhite;
     border-radius: .5rem;
