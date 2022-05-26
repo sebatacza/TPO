@@ -45,31 +45,44 @@
     <main>
         <div class="formulario-completo">
             <h3 id="form-titulo">Registro de usuario</h3>
-        <form action="./show_data.html">
-            <label for="nombre">Nombres:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre completo..." required><br><br>
-            <label for="apellido">Apellidos:</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellidos..."><br><br>
-            <label for="direccion">Dirección:</label>
-            <input type="text" name="direccion" id="direccion" placeholder="Ingrese direccion..."><br><br>
-            <label for="ciudad">Ciudad:</label>
-            <input type="text" name="ciudad" id="ciudad" value="CABA"><br><br>
-            <label for="codigoPostal">Codigo postal:</label>
-            <input type="number" name="codigoPostal" id="codigoPostal" placeholder="Ingrese su codigo postal aqui..."><br><br>
-            <label for="fechaDeNacimiento">Fecha de nacimiento:</label>
-            <input type="date" name="fechaDeNacimiento" id="fechaDeNacimiento" required><br><br>
-            <label for="genero">Género:</label>
-            <input type="radio" name="genero"> Hombre
-            <input type="radio" name="genero"> Mujer
-            <input type="radio" name="genero"> Otro <br><br>
-            <label for="estudios" >Estudios:</label>
-            <input type="checkbox" name="estudios"> Primarios
-            <input type="checkbox" name="estudios"> Secundarios
-            <input type="checkbox" name="estudios"> Terciarios
-            <input type="checkbox" name="estudios"> Universitarios
-            <input type="checkbox" name="estudios"> Otros <br><br>
-            <input class="btn-formulario"type="submit" value="Enviar">
-        </form>
+            <!-- action="./show_data.html" -->
+            <form action="./show_data.html" id="formulario"> 
+                <label for="nombre">Nombres:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre completo...">
+                <div id="errorNombre"></div>
+                <br><br>
+                <label for="apellido">Apellidos:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellidos...">
+                <div id="errorApellido"></div>
+                <br><br>
+                <label for="direccion">Dirección:</label>
+                <input type="text" name="direccion" id="direccion" placeholder="Ingrese direccion...">
+                <div id="errorDireccion"></div>
+                <br><br>
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" name="ciudad" id="ciudad" value="CABA">
+                <div id="errorCiudad"></div>
+                <br><br>
+                <label for="codigoPostal">Codigo postal:</label>
+                <input type="number" name="codigoPostal" id="codigoPostal" placeholder="Ingrese su codigo postal aqui...">
+                <div id="errorCodigoPostal"></div>
+                <br><br>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" placeholder="Ingrese su correo electronico...">
+                <div id="errorEmail"></div>
+                <br><br>
+                <label for="fechaDeNacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="fechaDeNacimiento" id="fechaDeNacimiento" required>
+                <br><br>
+                <label for="genero">Género:</label>
+                <input type="radio" name="genero" value="Hombre"> Hombre
+                <input type="radio" name="genero" value="Mujer"> Mujer
+                <input type="radio" name="genero" value="Otro"> Otro
+                <div id="errorGenero"></div>
+                <br><br>
+                <input class="btn-formulario"type="submit" value="Enviar">
+
+            </form>
         </div>
         
     </main>

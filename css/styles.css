@@ -25,7 +25,7 @@ body{
 }
 
 header{
-    background-color: #99B898;
+    background-color: rgb(34, 32, 32);
     margin-top: -9rem;
     min-height: 50px;
     height: auto;
@@ -87,7 +87,7 @@ main{
 
 .row>aside{
     border-radius: .5rem;
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(24, 22, 22);
     border:2px rgb(51, 50, 50) solid;
     max-height: 50rem;
     margin: 0rem;
@@ -280,9 +280,7 @@ form{
     gap: 0.5rem;
 }
 
-/* .container div img{
-    width: 25rem;
-} */
+
 
 .img-parque{
     width: 100%;
@@ -293,11 +291,11 @@ form{
     height: auto;
 }
 .intro{
-    color: antiquewhite;
+    color: #da6f23;
     border-radius: .5rem;
     margin: 1rem;
     padding: 2rem;
-    background-color: rgb(72, 19, 122);
+    background-color: rgb(24, 22, 22);
     grid-area: intro;
 }
 
@@ -333,7 +331,7 @@ form{
     margin-top: .2rem;
     border-radius: .5rem;
     padding: 1rem;
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(24, 22, 22);
     grid-area: aside;
 }
 
@@ -593,7 +591,7 @@ footer{
     }
      */
     .row>aside{
-        border:2px rgb(51, 50, 50) solid;
+        border:2px rgb(24, 22, 22) solid;
         min-height: 100px;
         margin: 0.5rem;
         min-width: 10%;
@@ -617,4 +615,13 @@ footer{
 /* Dispositivos extra grandea */
 @media only screen and (min-width: 1200px) {
     /* header{background-color:brown;} */
+}
+
+.img-mot:hover{
+    -webkit-transform:scale(.8);
+    transform:scale(.8);
+}
+
+#ingresado{
+    color:goldenrod;
 }
